@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Best Community Service</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <nav>
+                <a href="landing.html"><img id="logo" src="imgs/logo.png" alt="Logo"/></a>
+                <ul>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="extraservices.html">Extra Services</a></li>
+                </ul>
+            </nav>
+
+            
+            <main>
+                <form>
+                
+                    <label for="reserveDate">Select Date</label>
+                    <input type="date" name="reserveDate" id="reserveDate">
+                
+                    <label for="selectRoom">Select Room</label>
+                    <select name="selectRoom" id="selectRoom">
+                        <option value="kitchen">Kitchen</option>
+                        <option value="multiroom1">Multi-purpose room 1</option>
+                        <option value="multiroom2">Multi-purpose room 2</option>
+                        <option value="weightroom">Weight room</option>
+                    </select>
+                    
+                    <label for="selectServices">Select Services</label>
+                    <select name="selectServices" id="selectServices">
+                        <option value="None">None</option>
+                        <option value="Catering">Catering</option>
+                    </select>
+                    
+                    <label for="selectTime">Select Time</label>
+                    <select name="selectTime" id="selectTime">
+                        <option value="9am">9 AM</option>
+                        <option value="12pm">12 PM</option>
+                        <option value="1pm">1 PM</option>
+                        <option value="2pm">2 PM</option>
+                        <option value="2:30pm">2:30 PM</option>
+                    </select>
+                    
+                    <label for="selectEquiptment">Select Equiptment</label>
+                    <select name="selectEquiptment" id="selectEquiptment">
+                        <option value="None">None</option>
+                        <option value="mirophone">Microphone</option>
+                        <option value="speakers">Speakers</option>
+                        <option value="lemonade">Lemonade Machine</option>
+                        <option value="yogaball">Yoga Ball</option>
+                    </select>
+                    
+                    <label for="comments">Comments</label>
+                    <textarea rows="4" cols="50" name="comments" id="comments"></textarea>
+                    
+                </form>
+            
+            
+            
+            </main>
+            
+            
+        </div> <!--end wrapper-->
+    </body>
+
+</html>
