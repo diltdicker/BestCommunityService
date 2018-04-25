@@ -71,6 +71,18 @@ nav li a {
     text-align: center;
 }
 
+.classes {
+    width: 50%;
+    background-color: green;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+#register.classes {
+    background-color: red;
+}
+
 #shifts.volunteer {
     float: right;
     background-color: green;
