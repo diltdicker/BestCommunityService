@@ -29,6 +29,13 @@ nav li {
 }
 
 nav li a {
-   
     font-size: 2em;
+}
+
+#elderlyCare {
+    width: 400px;
+}
+
+#shuttleService {
+    width: 400px;
 }
