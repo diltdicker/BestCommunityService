@@ -1,14 +1,26 @@
 html {
-    --bkg-color: #73A4FF;
-    --color-1: #DA82FF;
-    --color-2: #3611E8;
-    --color-3: #5DD5E8;
-    --color-4: #7EFFCB;
+    --bkg-color: #73A4FF; /*light blue*/
+    --color-1: #DA82FF; /* purple */
+    --trim-color: #3611E8; /* dark blue */
+    --color-3: #5DD5E8; /* other light blue */
+    --rim-color: #7EFFCB; /* light green */
+
+
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: var(--rim-color);
+    text-decoration: none;
+}
 
 body {
     background-color: var(--bkg-color);
+    font-family: monospace;
+
 }
 
 #logo {
@@ -20,16 +32,23 @@ body {
 nav {
     height: 50px;
     padding-top: 1px;
+    color: inherit;
 }
 
 nav li {
     display: inline;
     margin: 10px;
-    padding-top: 5px;
+    padding-bottom: 1.25em;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 20px;
+    background-color: var(--trim-color);
 }
 
 nav li a {
     font-size: 2em;
+
 }
 
 #elderlyCare {
