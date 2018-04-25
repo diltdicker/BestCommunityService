@@ -8,6 +8,10 @@ html {
 
 }
 
+main {
+    margin-top: 10px;
+}
+
 a {
     color: white;
 }
@@ -57,4 +61,29 @@ nav li a {
 
 #shuttleService {
     width: 400px;
+}
+
+.volunteer {
+    width: 33.33%;
+    background-color: var(--trim-color);
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+#shifts.volunteer {
+    float: right;
+    background-color: green;
+}
+
+#become.volunteer {
+    background-color: red;
+}
+
+#schedule.volunteer {
+    background-color: blue;
+}
+
+.volunteer a {
+    display: inline;
 }

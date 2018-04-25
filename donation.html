@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Best Community Service</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -21,24 +22,23 @@
                 </ul>
             </nav>
 
-            
+
             <main>
                 <form id="donation" method="post" action="http://webdevbasics.net/scripts/demo.php">
                     <h2>Donations</h2>
                     <label for="donationAmount">Enter desired amount to donate</label>
-                    <input type="number" name="donationAmount" id="donationAmount">
-                
-                    
-                    
-                    <input type="submit">
-                    
+                    <input type="number" name="donationAmount" min="1.00" step="1" value="1.00" id="donationAmount">
+
+
+                    <button type="submit">Make Donation <i class="fa fa-paypal"></i></button>
+
                 </form>
-            
-            
-            
+
+
+
             </main>
-            
-            
+
+
         </div> <!--end wrapper-->
     </body>
 
