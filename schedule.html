@@ -6,6 +6,23 @@
         <link rel="stylesheet" href="css/stylesheet.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
     </head>
 
     <body>
@@ -23,7 +40,38 @@
 
             
             <main>
-                tdb
+                    <h2>Your Schedule</h2>
+
+                    <table>
+                      <tr>
+                        <th>Type</th>
+                        <th>Activity</th>
+                        <th>Location</th>
+                        <th>Time</th>
+                      </tr>
+                      <tr>
+                        <td>Class Student</td>
+                        <td>Arts and Crafts</td>
+                        <td>Room 100, main building</td>
+                        <td>4:30 PM - 6:30 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Shift</td>
+                        <td>Catering</td>
+                        <td>Main kitchen, main building</td>
+                        <td>8:00 AM - 10:00 AM</td>
+                      </tr>
+                      <tr>
+                        <td>Class Teacher</td>
+                        <td>Human Biology 100</td>
+                        <td>Room 201, main building</td>
+                        <td>12:30 PM - 2:00 PM</td>
+                      </tr>
+                    </table>
+
+                    <a href="landing.html"><div class="submit" id="submit">
+                            <button type="submit"><font size = "3" color = "black" >Return to home page</font></button>
+                    </div></a>
             </main>
             
             
